@@ -4,130 +4,166 @@
 ✨ Introduction
 --------------
 
-The **Bank Management System (ATM Machine)** is a **Java-based** application that simulates basic banking operations through an **ATM-like interface**. Users can perform essential transactions such as **PIN change, cash withdrawal, deposits, balance inquiry**, and more.
+A **Console-Based Banking Management System** built using **Core Java, JDBC, and MySQL** with secure user authentication, account management, balance inquiry, debit, credit, fund transfer, and database integration following **Object-Oriented Programming (OOP)** principles.
 
-The application is built using **Java Swing** for a graphical user interface and **JDBC** for secure database connectivity.
+This project demonstrates Java backend development concepts including **OOP, JDBC connectivity, MySQL database operations, exception handling, and modular programming**.
 
-💳 Features
------------
+---
 
-*   ➕ **Deposit**: Add money to your bank account.
-*   ➖ **Cash Withdrawal**: Withdraw money from your account.
-*   ⏫ **Fast Cash**: Quick withdrawal of pre-defined amounts.
-*   📈 **Balance Inquiry**: Check your current account balance.
-*   📝 **Mini Statement**: View a summary of recent transactions.
-*   🔑 **PIN Change**: Securely update your ATM PIN.
-*   ❌ **Exit**: Safely log out of the application.
-    
+## 🚀 Features
 
-💻 Technologies Used
---------------------
+- 🔐 User Registration and Login Authentication
+- 👤 Account Creation and Management
+- 🔢 Automatic Account Number Generation
+- 💰 Balance Inquiry
+- ➕ Credit Money (Deposit)
+- ➖ Debit Money (Withdrawal)
+- 🔄 Fund Transfer Between Accounts
+- 🔍 Account Existence Verification
+- 🗄️ MySQL Database Integration
+- 🔌 JDBC Connectivity
+- ⚙️ Object-Oriented Programming Implementation
 
-*   **Programming Language**: Java
-*   **GUI Framework**: Swing (Java)
-*   **Database**: MySQL
-*   **Database Connectivity**: JDBC
-*   **IDE**: IntelliJ IDEA / Eclipse / NetBeans (or any Java IDE)
-    
+---
 
-🛠️ Installation and Setup
---------------------------
+## 🛠️ Technologies Used
 
-### ⚡ Prerequisites
+| Technology | Purpose |
+|------------|---------|
+| Java | Core application development |
+| JDBC | Database connectivity |
+| MySQL | Database storage and management |
+| IntelliJ IDEA | Development Environment |
+| Git & GitHub | Version Control |
 
-*   **JDK 8** or higher installed on your machine.
-*   **MySQL Server** installed and configured.
-*   **Java IDE** (e.g., IntelliJ IDEA, Eclipse, or NetBeans).
-    
+---
 
-### ⭐ Steps to Run the Project
+## 📂 Project Structure
 
-1.  git clone https://github.com/HimanshuHeda/Bank_Management_System_Java.git
-    
-2.  **Open the project** in your Java IDE.
-    
-3.  **Set up the database**:
-    
-    *   Import the provided SQL script (database\_setup.sql) to create the required tables in MySQL.
-    *   Update the Conn class with your **MySQL credentials**.
-        
-4.  **Compile and run the project**:
-     Execute the Transactions or Main class to launch the application.
-        
-
-📚 Database Structure
----------------------
-
-The project uses the following tables:
-
-### **1\. ```bank``` Table** (Stores user account details and transactions)
 ```
-   CREATE TABLE bank (     
-       account_no INT PRIMARY KEY,     
-       name VARCHAR(50),     
-       balance DOUBLE,     
-       pin VARCHAR(4)  
-       );   
+Banking Management System
+
+│
+├── src
+│
+├── User
+│   ├── register()
+│   ├── login()
+│   └── user_exist()
+│
+├── Accounts
+│   ├── open_account()
+│   ├── get_account_number()
+│   ├── generate_account_number()
+│   └── account_exists()
+│
+├── Account Manager
+│   ├── credit_money()
+│   ├── debit_money()
+│   ├── transfer_money()
+│   └── check_balance()
+│
+└── Banking App
+    ├── main()
+    ├── Main Menu
+    ├── Create Objects
+    └── Setup Database Connection
 ```
-### **2\. ```login``` Table** (Manages user authentication)
-### **3\. ```signupthree``` Table** (Contains user registration details)
 
-💻 How to Use
--------------
+---
 
-1.  **Run the application.**
-2.  **Log in** using your account PIN.
-3.  **Select** the desired operation from the menu.
-4.  **Follow** the on-screen prompts to complete the transaction.
-5.  **Log out** when finished by clicking the **Exit** button.
+# 🏗️ System Design
 
-Screenshots
-------------
-##### **Login Page**:
-![image](https://github.com/user-attachments/assets/157a9ab2-c827-46a7-8beb-b5097593ffe5)
+The Banking Management System follows an object-oriented architecture where different classes handle different banking operations.
 
-##### **SignUpOne**: 
-![image](https://github.com/user-attachments/assets/7f986c75-4d0a-4a23-9a40-6a80fe834694)
+![Banking System Design](images/system-design.png)
 
-##### **Main Transactions Menu**:
-![image](https://github.com/user-attachments/assets/d4e070d5-2b15-4db3-b6bd-90fd6de99eb1)
+---
 
-##### **PIN Change Interface**:
-![image](https://github.com/user-attachments/assets/d349c918-646e-4aa6-8ed1-33596f92e993)
+# 🗄️ Banking System Database with Sample Records
 
-##### **Withdrawl**:
-![Screenshot 2025-01-15 153737](https://github.com/user-attachments/assets/02f58ef8-7729-45d4-975b-0c5c4f613bc8)
+The application uses **MySQL database integration** to store and manage user and account information.
 
-##### **FastCash**:
-![image](https://github.com/user-attachments/assets/2a8dd60d-27f2-46c2-a75f-5f1d4ab4ce49)
+Database operations include:
 
+- User data storage
+- Account details management
+- Balance updates
+- Transaction processing
+- Fund transfer management
 
-⚠️ Known Issues
----------------
+![Banking Database](images/database-records.png)
 
-*   Ensure all **database credentials** are correct to **avoid connection issues**.
-*   Add **input validation** for robust error handling and to **prevent SQL injection attacks**.
-    
+---
 
-🚀 Future Enhancements
-----------------------
+# 🎥 Banking Management System – Console Application Demo
 
-*   ✅ **Multi-User Support**: Implement unique account numbers for multiple users.
-    
-*   🔒 **OTP Verification**: Add an extra layer of security during login and transactions.
-    
-*   🎨 **Enhanced GUI**: Upgrade the user interface for a more **modern and intuitive** experience.
-    
+The demo shows the working of the console-based banking application including:
 
-🤝 Contributing
----------------
+- User Registration
+- Login Authentication
+- Account Creation
+- Balance Checking
+- Credit and Debit Operations
+- Fund Transfer
 
-Contributions are welcome! If you want to contribute:
+![Banking Management System Demo](images/demo.gif)
 
-1.  **Fork** the repository.
-2.  **Create** a new feature branch.
-3.  **Commit** your changes with meaningful messages.
-4.  **Submit** a pull request.
+---
+
+# ▶️ How to Run the Project
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/kshitijvarshikar/Banking-Management-System.git
+```
+
+## 2. Open Project
+
+Open the project in **IntelliJ IDEA**.
+
+## 3. Configure MySQL Database
+
+- Install MySQL
+- Create the required database
+- Update database credentials in JDBC connection file
+- Add MySQL JDBC Connector
+
+## 4. Run Application
+
+Run:
+
+```bash
+Main.java
+```
+
+---
+
+# 📌 Future Enhancements
+
+- GUI implementation using JavaFX/Swing
+- Transaction history module
+- Admin dashboard
+- Password encryption
+- Spring Boot REST API version
+- Web-based banking application
+
+---
+
+# 📚 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Core Java Programming
+- Object-Oriented Programming (OOP)
+- JDBC Database Connectivity
+- MySQL Integration
+- Backend Application Development
+- Exception Handling
+- Git and GitHub Workflow
+
+---
     
 
 📜 License
