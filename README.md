@@ -116,7 +116,7 @@ The demo shows the working of the console-based banking application including:
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/kshitijvarshikar/Banking-Management-System.git
+git clone https://github.com/kshitijvarshikar/Banking-Management-System.git](https://github.com/SHREYES22/Online-Banking-Management-System.git
 ```
 
 ## 2. Open Project
