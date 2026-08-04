@@ -133,7 +133,7 @@ Contributions are welcome! If you want to contribute:
 📜 License
 ----------
 
-This project is licensed under the **MIT License**. See the [LICENSE]([[[https://github.com/HimanshuHeda/Bank_Management_System_Java?tab=MIT-1-ov-file](https://github.com/SHREYES22/Online-Banking-Management-System/blob/main/LICENSE)](https://github.com/SHREYES22/Online-Banking-Management-System)](https://github.com/SHREYES22/Online-Banking-Management-System?tab=MIT-1-ov-file)) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE]((https://github.com/SHREYES22/Online-Banking-Management-System?tab=MIT-1-ov-file)) file for details.
 
 📞 Contact
 ----------
