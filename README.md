@@ -140,7 +140,7 @@ This project is licensed under the **MIT License**. See the [LICENSE]([[[https:/
 
 For any queries or suggestions, feel free to reach out:
 
-*   **👤 Name:** Himanshu Heda
-*   📧 **Email:** himanshuheda123@gmail.com
+*   **👤 Name:** PUTTUMBAKU SAI SHREYES
+*   📧 **Email:** saishreyesp@gmail.com
 *   💻 **GitHub:** [HimanshuHeda](https://github.com/HimanshuHeda)
-*   🔗 **LinkedIn:** [Himanshu Heda](https://www.linkedin.com/in/himanshu-heda/)
+*   🔗 **LinkedIn:** [PUTTUMBAKU SAI SHREYES](www.linkedin.com/in/puttumbaku-sai-shreyes-20593a38a)
