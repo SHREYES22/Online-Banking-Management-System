@@ -143,4 +143,4 @@ For any queries or suggestions, feel free to reach out:
 *   **👤 Name:** PUTTUMBAKU SAI SHREYES
 *   📧 **Email:** saishreyesp@gmail.com
 *   💻 **GitHub:** [PUTTUMBAKU SAI SHREYES](https://github.com/SHREYES22)
-*   🔗 **LinkedIn:** [PUTTUMBAKU SAI SHREYES](www.linkedin.com/in/puttumbaku-sai-shreyes-20593a38a)
+*   🔗 **LinkedIn:** [PUTTUMBAKU SAI SHREYES](https://www.linkedin.com/in/puttumbaku-sai-shreyes-20593a38a)
